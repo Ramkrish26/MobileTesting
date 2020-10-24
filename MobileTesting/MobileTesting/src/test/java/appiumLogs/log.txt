@@ -1,0 +1,206 @@
+2020-08-23 05:47:04:838 [Appium] Welcome to Appium v1.18.0
+2020-08-23 05:47:04:838 [Appium] Non-default server args:
+2020-08-23 05:47:04:839 [Appium]   logFile: D:\Project\MobileTesting\.\MobileTesting\src\test\java\appiumLogs\log.txt
+2020-08-23 05:47:04:952 [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2020-08-23 05:47:04:994 [HTTP] --> GET /wd/hub/status
+2020-08-23 05:47:04:995 [HTTP] {}
+2020-08-23 05:47:04:996 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2020-08-23 05:47:04:996 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.18.0"}}
+2020-08-23 05:47:04:999 [HTTP] <-- GET /wd/hub/status 200 4 ms - 68
+2020-08-23 05:47:05:000 [HTTP] 
+2020-08-23 05:47:05:572 [HTTP] --> POST /wd/hub/session
+2020-08-23 05:47:05:572 [HTTP] {"desiredCapabilities":{"appActivity":".DialtactsActivity","appPackage":"com.samsung.android.dialer","platformName":"Android","deviceName":"android"},"capabilities":{"firstMatch":[{"appium:appActivity":".DialtactsActivity","appium:appPackage":"com.samsung.android.dialer","appium:deviceName":"android","platformName":"android"}]}}
+2020-08-23 05:47:05:572 [W3C] Calling AppiumDriver.createSession() with args: [{"appActivity":".DialtactsActivity","appPackage":"com.samsung.android.dialer","platformName":"Android","deviceName":"android"},null,{"firstMatch":[{"appium:appActivity":".DialtactsActivity","appium:appPackage":"com.samsung.android.dialer","appium:deviceName":"android","platformName":"android"}]}]
+2020-08-23 05:47:05:573 [BaseDriver] Event 'newSessionRequested' logged at 1598161625573 (11:17:05 GMT+0530 (India Standard Time))
+2020-08-23 05:47:05:577 [Appium] 
+2020-08-23 05:47:05:577 [Appium] ======================================================================
+2020-08-23 05:47:05:577 [Appium]   DEPRECATION WARNING:
+2020-08-23 05:47:05:577 [Appium] 
+2020-08-23 05:47:05:578 [Appium]   The 'automationName' capability was not provided in the desired 
+2020-08-23 05:47:05:578 [Appium]   capabilities for this Android session
+2020-08-23 05:47:05:578 [Appium] 
+2020-08-23 05:47:05:578 [Appium]   Setting 'automationName=UiAutomator2' by default and using the 
+2020-08-23 05:47:05:578 [Appium]   UiAutomator2 Driver
+2020-08-23 05:47:05:578 [Appium] 
+2020-08-23 05:47:05:578 [Appium]   The next major version of Appium (2.x) will **require** the 
+2020-08-23 05:47:05:578 [Appium]   'automationName' capability to be set for all sessions on all 
+2020-08-23 05:47:05:579 [Appium]   platforms
+2020-08-23 05:47:05:579 [Appium] 
+2020-08-23 05:47:05:579 [Appium]   In previous versions (Appium <= 1.13.x), the default was 
+2020-08-23 05:47:05:579 [Appium]   'automationName=UiAutomator1'
+2020-08-23 05:47:05:579 [Appium] 
+2020-08-23 05:47:05:579 [Appium]   If you wish to use that automation instead of UiAutomator2, please 
+2020-08-23 05:47:05:579 [Appium]   add 'automationName=UiAutomator1' to your desired capabilities
+2020-08-23 05:47:05:579 [Appium] 
+2020-08-23 05:47:05:579 [Appium]   For more information about drivers, please visit 
+2020-08-23 05:47:05:579 [Appium]   http://appium.io/docs/en/about-appium/intro/ and explore the 
+2020-08-23 05:47:05:580 [Appium]   'Drivers' menu
+2020-08-23 05:47:05:580 [Appium] 
+2020-08-23 05:47:05:580 [Appium] ======================================================================
+2020-08-23 05:47:05:580 [Appium] 
+2020-08-23 05:47:05:751 [Appium] Appium v1.18.0 creating new AndroidUiautomator2Driver (v1.56.1) session
+2020-08-23 05:47:05:753 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2020-08-23 05:47:05:753 [BaseDriver] Creating session with W3C capabilities: {
+2020-08-23 05:47:05:753 [BaseDriver]   "alwaysMatch": {
+2020-08-23 05:47:05:754 [BaseDriver]     "platformName": "android",
+2020-08-23 05:47:05:754 [BaseDriver]     "appium:appActivity": ".DialtactsActivity",
+2020-08-23 05:47:05:754 [BaseDriver]     "appium:appPackage": "com.samsung.android.dialer",
+2020-08-23 05:47:05:754 [BaseDriver]     "appium:deviceName": "android"
+2020-08-23 05:47:05:754 [BaseDriver]   },
+2020-08-23 05:47:05:754 [BaseDriver]   "firstMatch": [
+2020-08-23 05:47:05:754 [BaseDriver]     {}
+2020-08-23 05:47:05:754 [BaseDriver]   ]
+2020-08-23 05:47:05:754 [BaseDriver] }
+2020-08-23 05:47:05:760 [BaseDriver] Session created with session id: 9602ebb2-8cee-431f-bd99-82a4993d3a8c
+2020-08-23 05:47:05:760 [UiAutomator2] Starting 'com.samsung.android.dialer' directly on the device
+2020-08-23 05:47:05:765 [ADB] Found 1 'build-tools' folders under 'C:\Users\ramak\AppData\Local\Android\Sdk' (newest first):
+2020-08-23 05:47:05:766 [ADB]     C:/Users/ramak/AppData/Local/Android/Sdk/build-tools/30.0.2
+2020-08-23 05:47:05:766 [ADB] Using 'adb.exe' from 'C:\Users\ramak\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2020-08-23 05:47:05:766 [ADB] Running 'C:\Users\ramak\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+2020-08-23 05:47:05:798 [AndroidDriver] Retrieving device list
+2020-08-23 05:47:05:798 [ADB] Trying to find a connected android device
+2020-08-23 05:47:05:799 [ADB] Getting connected devices
+2020-08-23 05:47:05:826 [ADB] Connected devices: [{"udid":"RZ8M6176QCF","state":"device"}]
+2020-08-23 05:47:05:826 [AndroidDriver] Using device: RZ8M6176QCF
+2020-08-23 05:47:05:827 [ADB] Using 'adb.exe' from 'C:\Users\ramak\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+2020-08-23 05:47:05:828 [ADB] Running 'C:\Users\ramak\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+2020-08-23 05:47:05:855 [ADB] Setting device id to RZ8M6176QCF
+2020-08-23 05:47:05:855 [ADB] Running 'C:\Users\ramak\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RZ8M6176QCF shell getprop ro.build.version.sdk'
+2020-08-23 05:47:05:945 [ADB] Current device property 'ro.build.version.sdk': 29
+2020-08-23 05:47:05:946 [ADB] Getting device platform version
+2020-08-23 05:47:05:946 [ADB] Running 'C:\Users\ramak\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RZ8M6176QCF shell getprop ro.build.version.release'
+2020-08-23 05:47:06:027 [ADB] Current device property 'ro.build.version.release': 10
+2020-08-23 05:47:06:027 [ADB] Device API level: 29
+2020-08-23 05:47:06:027 [UiAutomator2] Relaxing hidden api policy
+2020-08-23 05:47:06:027 [ADB] Running 'C:\Users\ramak\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RZ8M6176QCF shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+2020-08-23 05:47:06:296 [AndroidDriver] No app sent in, not parsing package/activity
+2020-08-23 05:47:06:296 [ADB] Running 'C:\Users\ramak\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RZ8M6176QCF wait-for-device'
+2020-08-23 05:47:06:326 [ADB] Running 'C:\Users\ramak\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RZ8M6176QCF shell echo ping'
+2020-08-23 05:47:06:388 [AndroidDriver] Pushing settings apk to device...
+2020-08-23 05:47:06:389 [ADB] Getting install status for io.appium.settings
+2020-08-23 05:47:06:389 [ADB] Running 'C:\Users\ramak\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RZ8M6176QCF shell dumpsys package io.appium.settings'
+2020-08-23 05:47:06:512 [ADB] 'io.appium.settings' is installed
+2020-08-23 05:47:06:512 [ADB] Getting package info for 'io.appium.settings'
+2020-08-23 05:47:06:512 [ADB] Running 'C:\Users\ramak\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RZ8M6176QCF shell dumpsys package io.appium.settings'
+2020-08-23 05:47:06:644 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('3.2.0' >= '3.2.0')
+2020-08-23 05:47:06:644 [ADB] There is no need to install/upgrade 'C:\Users\ramak\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+2020-08-23 05:47:06:645 [ADB] Getting IDs of all 'io.appium.settings' processes
+2020-08-23 05:47:06:645 [ADB] Running 'C:\Users\ramak\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RZ8M6176QCF shell 'pgrep --help; echo $?''
+2020-08-23 05:47:06:738 [ADB] Running 'C:\Users\ramak\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RZ8M6176QCF shell pgrep -f io\\.appium\\.settings'
+2020-08-23 05:47:06:889 [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2020-08-23 05:47:06:890 [ADB] Running 'C:\Users\ramak\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RZ8M6176QCF shell appops set io.appium.settings android\:mock_location allow'
+2020-08-23 05:47:07:016 [Logcat] Starting logs capture with command: C:\\Users\\ramak\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s RZ8M6176QCF logcat -v threadtime
+2020-08-23 05:47:07:510 [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to 8200
+2020-08-23 05:47:07:511 [ADB] Forwarding system: 8200 to device: 6790
+2020-08-23 05:47:07:511 [ADB] Running 'C:\Users\ramak\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RZ8M6176QCF forward tcp\:8200 tcp\:6790'
+2020-08-23 05:47:07:543 [ADB] Getting install status for io.appium.uiautomator2.server
+2020-08-23 05:47:07:543 [ADB] Running 'C:\Users\ramak\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RZ8M6176QCF shell dumpsys package io.appium.uiautomator2.server'
+2020-08-23 05:47:07:660 [ADB] 'io.appium.uiautomator2.server' is installed
+2020-08-23 05:47:07:660 [ADB] Getting package info for 'io.appium.uiautomator2.server'
+2020-08-23 05:47:07:660 [ADB] Running 'C:\Users\ramak\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RZ8M6176QCF shell dumpsys package io.appium.uiautomator2.server'
+2020-08-23 05:47:07:763 [ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('4.11.0' >= '4.11.0')
+2020-08-23 05:47:07:763 [UiAutomator2] io.appium.uiautomator2.server installation state: sameVersionInstalled
+2020-08-23 05:47:07:763 [ADB] Checking app cert for C:\Users\ramak\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.11.0.apk
+2020-08-23 05:47:07:765 [ADB] Using 'apksigner.jar' from 'C:\Users\ramak\AppData\Local\Android\Sdk\build-tools\30.0.2\lib\apksigner.jar'
+2020-08-23 05:47:07:766 [ADB] Starting apksigner: 'C:\\Program Files (x86)\\Java\\jre1.8.0_241\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\ramak\\AppData\\Local\\Android\\Sdk\\build-tools\\30.0.2\\lib\\apksigner.jar verify --print-certs C:\\Users\\ramak\\AppData\\Local\\Programs\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v4.11.0.apk
+2020-08-23 05:47:08:159 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2020-08-23 05:47:08:159 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2020-08-23 05:47:08:159 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2020-08-23 05:47:08:160 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2020-08-23 05:47:08:160 [ADB] 
+2020-08-23 05:47:08:160 [ADB] 'C:\Users\ramak\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.11.0.apk' is signed with the default certificate
+2020-08-23 05:47:08:160 [ADB] Getting install status for io.appium.uiautomator2.server.test
+2020-08-23 05:47:08:160 [ADB] Running 'C:\Users\ramak\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RZ8M6176QCF shell dumpsys package io.appium.uiautomator2.server.test'
+2020-08-23 05:47:08:288 [ADB] 'io.appium.uiautomator2.server.test' is installed
+2020-08-23 05:47:08:288 [ADB] Checking app cert for C:\Users\ramak\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+2020-08-23 05:47:08:289 [ADB] Starting apksigner: 'C:\\Program Files (x86)\\Java\\jre1.8.0_241\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\ramak\\AppData\\Local\\Android\\Sdk\\build-tools\\30.0.2\\lib\\apksigner.jar verify --print-certs C:\\Users\\ramak\\AppData\\Local\\Programs\\Appium\\resources\\app\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk
+2020-08-23 05:47:08:617 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2020-08-23 05:47:08:617 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2020-08-23 05:47:08:617 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2020-08-23 05:47:08:617 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2020-08-23 05:47:08:617 [ADB] 
+2020-08-23 05:47:08:618 [ADB] 'C:\Users\ramak\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+2020-08-23 05:47:08:618 [UiAutomator2] Server packages are not going to be (re)installed
+2020-08-23 05:47:08:619 [UiAutomator2] Waiting up to 30000ms for services to be available
+2020-08-23 05:47:08:620 [ADB] Running 'C:\Users\ramak\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RZ8M6176QCF shell pm list instrumentation'
+2020-08-23 05:47:08:741 [UiAutomator2] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+2020-08-23 05:47:08:742 [UiAutomator2] No app capability. Assuming it is already on the device
+2020-08-23 05:47:08:742 [ADB] Getting install status for com.samsung.android.dialer
+2020-08-23 05:47:08:742 [ADB] Running 'C:\Users\ramak\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RZ8M6176QCF shell dumpsys package com.samsung.android.dialer'
+2020-08-23 05:47:08:871 [ADB] 'com.samsung.android.dialer' is installed
+2020-08-23 05:47:08:871 [ADB] Running 'C:\Users\ramak\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RZ8M6176QCF shell am force-stop com.samsung.android.dialer'
+2020-08-23 05:47:09:006 [ADB] Running 'C:\Users\ramak\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RZ8M6176QCF shell pm clear com.samsung.android.dialer'
+2020-08-23 05:47:09:194 [AndroidDriver] Performed fast reset on the installed 'com.samsung.android.dialer' application (stop and clear)
+2020-08-23 05:47:09:194 [UiAutomator2] Performing shallow cleanup of automation leftovers
+2020-08-23 05:47:09:205 [UiAutomator2] No obsolete sessions have been detected (socket hang up)
+2020-08-23 05:47:09:205 [ADB] Running 'C:\Users\ramak\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RZ8M6176QCF shell am force-stop io.appium.uiautomator2.server.test'
+2020-08-23 05:47:09:337 [UiAutomator2] Starting UIAutomator2 server 4.11.0
+2020-08-23 05:47:09:337 [UiAutomator2] Using UIAutomator2 server from 'C:\Users\ramak\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.11.0.apk' and test from 'C:\Users\ramak\AppData\Local\Programs\Appium\resources\app\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+2020-08-23 05:47:09:337 [UiAutomator2] Waiting up to 30000ms for UiAutomator2 to be online...
+2020-08-23 05:47:09:338 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","RZ8M6176QCF","shell","am","instrument","-w","io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+2020-08-23 05:47:10:343 [WD Proxy] Matched '/status' to command name 'getStatus'
+2020-08-23 05:47:10:344 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
+2020-08-23 05:47:10:345 [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+2020-08-23 05:47:10:350 [WD Proxy] socket hang up
+2020-08-23 05:47:11:352 [WD Proxy] Matched '/status' to command name 'getStatus'
+2020-08-23 05:47:11:353 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
+2020-08-23 05:47:11:358 [WD Proxy] socket hang up
+2020-08-23 05:47:12:359 [WD Proxy] Matched '/status' to command name 'getStatus'
+2020-08-23 05:47:12:359 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
+2020-08-23 05:47:12:447 [WD Proxy] Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+2020-08-23 05:47:12:447 [UiAutomator2] The initialization of the instrumentation process took 3110ms
+2020-08-23 05:47:12:447 [WD Proxy] Matched '/session' to command name 'createSession'
+2020-08-23 05:47:12:447 [WD Proxy] Proxying [POST /session] to [POST http://127.0.0.1:8200/wd/hub/session] with body: {"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":".DialtactsActivity","appPackage":"com.samsung.android.dialer","deviceName":"android"},"platformName":"android","appActivity":".DialtactsActivity","appPackage":"com.samsung.android.dialer","deviceName":"RZ8M6176QCF","deviceUDID":"RZ8M6176QCF"}],"alwaysMatch":{}}}
+2020-08-23 05:47:12:467 [WD Proxy] Got response with status 200: {"sessionId":"ea7ca24d-08c8-409e-a07d-584ff2c222ca","value":{"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":".DialtactsActivity","appPackage":"com.samsung.android.dialer","deviceName":"android"},"platformName":"android","appActivity":".DialtactsActivity","appPackage":"com.samsung.android.dialer","deviceName":"RZ8M6176QCF","deviceUDID":"RZ8M6176QCF"}],"alwaysMatch":{}},"sessionId":"ea7ca24d-08c8-409e-a07d-584ff2c222ca"}}
+2020-08-23 05:47:12:467 [WD Proxy] Determined the downstream protocol as 'W3C'
+2020-08-23 05:47:12:473 [WD Proxy] Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8200/wd/hub/session/ea7ca24d-08c8-409e-a07d-584ff2c222ca/appium/device/info] with no body
+2020-08-23 05:47:12:532 [WD Proxy] Got response with status 200: {"sessionId":"ea7ca24d-08c8-409e-a07d-584ff2c222ca","value":{"androidId":"7184ab30db554219","apiVersion":"29","bluetooth":{"state":"OFF"},"brand":"samsung","carrierName":"Vodafone IN","displayDensity":420,"locale":"en_GB","manufacturer":"samsung","model":"SM-M405F","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":102400,"linkUpstreamBandwidthKbps":51200,"networkCapabilities":"NET_CAPABILITY_IMS,NET_CAPABILITY_NOT_METERED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_FOREGROUND,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-2147483648,"transportTypes":"TRANSPORT_CELLULAR"},"detailedState":"CONNECTED","extraInfo":"IMS","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":13,"subtypeName":"LTE","type":0,"typeName":"MOBILE"},{"capabilities":{"SSID":null,"linkDownBandwidthKbps":1048576,"linkUpstreamBandwidthKbps":1048576,"networkCapabilities":"NET_C...
+2020-08-23 05:47:12:532 [ADB] Running 'C:\Users\ramak\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RZ8M6176QCF shell dumpsys window'
+2020-08-23 05:47:12:686 [AndroidDriver] Screen already unlocked, doing nothing
+2020-08-23 05:47:12:686 [UiAutomator2] Starting 'com.samsung.android.dialer/.DialtactsActivity and waiting for 'com.samsung.android.dialer/.DialtactsActivity'
+2020-08-23 05:47:12:686 [ADB] Running 'C:\Users\ramak\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RZ8M6176QCF shell am start -W -n com.samsung.android.dialer/.DialtactsActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2020-08-23 05:47:13:813 [WD Proxy] Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8200/wd/hub/session/ea7ca24d-08c8-409e-a07d-584ff2c222ca/appium/device/pixel_ratio] with no body
+2020-08-23 05:47:13:843 [WD Proxy] Got response with status 200: {"sessionId":"ea7ca24d-08c8-409e-a07d-584ff2c222ca","value":2.625}
+2020-08-23 05:47:13:843 [WD Proxy] Matched '/appium/device/system_bars' to command name 'getSystemBars'
+2020-08-23 05:47:13:844 [WD Proxy] Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8200/wd/hub/session/ea7ca24d-08c8-409e-a07d-584ff2c222ca/appium/device/system_bars] with no body
+2020-08-23 05:47:13:854 [WD Proxy] Got response with status 200: {"sessionId":"ea7ca24d-08c8-409e-a07d-584ff2c222ca","value":{"statusBar":112}}
+2020-08-23 05:47:13:854 [WD Proxy] Matched '/window/current/size' to command name 'getWindowSize'
+2020-08-23 05:47:13:855 [WD Proxy] Proxying [GET /window/current/size] to [GET http://127.0.0.1:8200/wd/hub/session/ea7ca24d-08c8-409e-a07d-584ff2c222ca/window/current/size] with no body
+2020-08-23 05:47:13:864 [WD Proxy] Got response with status 200: {"sessionId":"ea7ca24d-08c8-409e-a07d-584ff2c222ca","value":{"height":2190,"width":1080}}
+2020-08-23 05:47:13:864 [Appium] New AndroidUiautomator2Driver session created successfully, session 9602ebb2-8cee-431f-bd99-82a4993d3a8c added to master session list
+2020-08-23 05:47:13:865 [BaseDriver] Event 'newSessionStarted' logged at 1598161633865 (11:17:13 GMT+0530 (India Standard Time))
+2020-08-23 05:47:13:865 [W3C (9602ebb2)] Cached the protocol value 'W3C' for the new session 9602ebb2-8cee-431f-bd99-82a4993d3a8c
+2020-08-23 05:47:13:866 [W3C (9602ebb2)] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":".DialtactsActivity","appPackage":"com.samsung.android.dialer","deviceName":"android"},"platformName":"android","appActivity":".DialtactsActivity","appPackage":"com.samsung.android.dialer","deviceName":"RZ8M6176QCF","deviceUDID":"RZ8M6176QCF","deviceApiLevel":29,"platformVersion":"10","deviceScreenSize":"1080x2340","deviceScreenDensity":420,"deviceModel":"SM-M405F","deviceManufacturer":"samsung","pixelRatio":2.625,"statBarHeight":112,"viewportRect":{"left":0,"top":112,"width":1080,"height":2078}}}
+2020-08-23 05:47:13:867 [HTTP] <-- POST /wd/hub/session 200 8295 ms - 824
+2020-08-23 05:47:13:867 [HTTP] 
+2020-08-23 05:47:13:897 [HTTP] --> POST /wd/hub/session/9602ebb2-8cee-431f-bd99-82a4993d3a8c/timeouts
+2020-08-23 05:47:13:897 [HTTP] {"implicit":10000}
+2020-08-23 05:47:13:898 [W3C (9602ebb2)] Calling AppiumDriver.timeouts() with args: [null,null,null,null,10000,"9602ebb2-8cee-431f-bd99-82a4993d3a8c"]
+2020-08-23 05:47:13:899 [BaseDriver] W3C timeout argument: {"implicit":10000}}
+2020-08-23 05:47:13:899 [BaseDriver] Set implicit wait to 10000ms
+2020-08-23 05:47:13:899 [W3C (9602ebb2)] Responding to client with driver.timeouts() result: null
+2020-08-23 05:47:13:900 [HTTP] <-- POST /wd/hub/session/9602ebb2-8cee-431f-bd99-82a4993d3a8c/timeouts 200 3 ms - 14
+2020-08-23 05:47:13:900 [HTTP] 
+2020-08-23 05:47:18:904 [HTTP] --> DELETE /wd/hub/session/9602ebb2-8cee-431f-bd99-82a4993d3a8c
+2020-08-23 05:47:18:904 [HTTP] {}
+2020-08-23 05:47:18:905 [W3C (9602ebb2)] Calling AppiumDriver.deleteSession() with args: ["9602ebb2-8cee-431f-bd99-82a4993d3a8c"]
+2020-08-23 05:47:18:905 [BaseDriver] Event 'quitSessionRequested' logged at 1598161638905 (11:17:18 GMT+0530 (India Standard Time))
+2020-08-23 05:47:18:905 [Appium] Removing session 9602ebb2-8cee-431f-bd99-82a4993d3a8c from our master session list
+2020-08-23 05:47:18:905 [UiAutomator2] Deleting UiAutomator2 session
+2020-08-23 05:47:18:906 [UiAutomator2] Deleting UiAutomator2 server session
+2020-08-23 05:47:18:906 [WD Proxy] Matched '/' to command name 'deleteSession'
+2020-08-23 05:47:18:906 [WD Proxy] Proxying [DELETE /] to [DELETE http://127.0.0.1:8200/wd/hub/session/ea7ca24d-08c8-409e-a07d-584ff2c222ca] with no body
+2020-08-23 05:47:18:927 [WD Proxy] Got response with status 200: {"sessionId":"ea7ca24d-08c8-409e-a07d-584ff2c222ca","value":null}
+2020-08-23 05:47:18:928 [ADB] Running 'C:\Users\ramak\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RZ8M6176QCF shell am force-stop com.samsung.android.dialer'
+2020-08-23 05:47:19:148 [Logcat] Stopping logcat capture
+2020-08-23 05:47:19:150 [ADB] Removing forwarded port socket connection: 8200 
+2020-08-23 05:47:19:151 [ADB] Running 'C:\Users\ramak\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RZ8M6176QCF forward --remove tcp\:8200'
+2020-08-23 05:47:19:182 [UiAutomator2] Restoring hidden api policy to the device default configuration
+2020-08-23 05:47:19:182 [ADB] Running 'C:\Users\ramak\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s RZ8M6176QCF shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
+2020-08-23 05:47:19:406 [BaseDriver] Event 'quitSessionFinished' logged at 1598161639406 (11:17:19 GMT+0530 (India Standard Time))
+2020-08-23 05:47:19:407 [W3C (9602ebb2)] Received response: null
+2020-08-23 05:47:19:407 [W3C (9602ebb2)] But deleting session, so not returning
+2020-08-23 05:47:19:407 [W3C (9602ebb2)] Responding to client with driver.deleteSession() result: null
+2020-08-23 05:47:19:407 [W3C (9602ebb2)] Destroying socket connection
+2020-08-23 05:47:19:408 [HTTP] <-- DELETE /wd/hub/session/9602ebb2-8cee-431f-bd99-82a4993d3a8c 200 503 ms - 14
+2020-08-23 05:47:19:408 [HTTP] 
